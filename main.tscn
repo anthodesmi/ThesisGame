@@ -1,0 +1,244 @@
+[gd_scene load_steps=74 format=2]
+
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_005.png" type="Texture" id=1]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_006.png" type="Texture" id=2]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_004.png" type="Texture" id=3]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_007.png" type="Texture" id=4]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_004.png" type="Texture" id=5]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_004.png" type="Texture" id=6]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_006.png" type="Texture" id=7]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_000.png" type="Texture" id=8]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_009.png" type="Texture" id=9]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_008.png" type="Texture" id=10]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_003.png" type="Texture" id=11]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_003.png" type="Texture" id=12]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_005.png" type="Texture" id=13]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_000.png" type="Texture" id=14]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_002.png" type="Texture" id=15]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_002.png" type="Texture" id=16]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_001.png" type="Texture" id=17]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_005.png" type="Texture" id=18]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_005.png" type="Texture" id=19]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_004.png" type="Texture" id=20]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_003.png" type="Texture" id=21]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_006.png" type="Texture" id=22]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_009.png" type="Texture" id=23]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_001.png" type="Texture" id=24]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_002.png" type="Texture" id=25]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_007.png" type="Texture" id=26]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_003.png" type="Texture" id=27]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_007.png" type="Texture" id=28]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_001.png" type="Texture" id=29]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_008.png" type="Texture" id=30]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_003.png" type="Texture" id=31]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_008.png" type="Texture" id=32]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_006.png" type="Texture" id=33]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_007.png" type="Texture" id=34]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_005.png" type="Texture" id=35]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_009.png" type="Texture" id=36]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_002.png" type="Texture" id=37]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_004.png" type="Texture" id=38]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_009.png" type="Texture" id=39]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_002.png" type="Texture" id=40]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_009.png" type="Texture" id=41]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_006.png" type="Texture" id=42]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_008.png" type="Texture" id=43]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__IDLE_008.png" type="Texture" id=44]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_001.png" type="Texture" id=45]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__HURT_001.png" type="Texture" id=46]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_007.png" type="Texture" id=47]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__ATTACK_000.png" type="Texture" id=48]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__WALK_000.png" type="Texture" id=49]
+[ext_resource path="res://player.gd" type="Script" id=51]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_003.png" type="Texture" id=52]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_005.png" type="Texture" id=53]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_002.png" type="Texture" id=54]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_004.png" type="Texture" id=55]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_007.png" type="Texture" id=56]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_008.png" type="Texture" id=57]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_000.png" type="Texture" id=58]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_006.png" type="Texture" id=59]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_001.png" type="Texture" id=60]
+[ext_resource path="res://craftpix/_PNG/2/Fairy_02__FLY_ATTACK_009.png" type="Texture" id=61]
+[ext_resource path="res://Background.tscn" type="PackedScene" id=62]
+[ext_resource path="res://Counter.tscn" type="PackedScene" id=64]
+[ext_resource path="res://potion.tscn" type="PackedScene" id=65]
+[ext_resource path="res://angelenemy.tscn" type="PackedScene" id=66]
+[ext_resource path="res://potion.gd" type="Script" id=69]
+[ext_resource path="res://Game.gd" type="Script" id=71]
+[ext_resource path="res://PotionLabel.tscn" type="PackedScene" id=72]
+[ext_resource path="res://time_label.gd" type="Script" id=73]
+[ext_resource path="res://Camera2D2.gd" type="Script" id=74]
+[ext_resource path="res://angel2enemy.tscn" type="PackedScene" id=75]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 17 ), ExtResource( 15 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 35 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 44 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "idle",
+"speed": 4.0
+}, {
+"frames": [ ExtResource( 48 ), ExtResource( 29 ), ExtResource( 40 ), ExtResource( 31 ), ExtResource( 5 ), ExtResource( 13 ), ExtResource( 22 ), ExtResource( 47 ), ExtResource( 10 ), ExtResource( 23 ), null, null, null, null, null, null, null, null, null, null ],
+"loop": true,
+"name": "attack",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 60 ), ExtResource( 54 ), ExtResource( 52 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 61 ) ],
+"loop": true,
+"name": "flyattack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 49 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 27 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 32 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "walk",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 45 ), ExtResource( 37 ), ExtResource( 21 ), ExtResource( 38 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "fly",
+"speed": 4.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 46 ), ExtResource( 16 ), ExtResource( 12 ), ExtResource( 6 ), ExtResource( 18 ), ExtResource( 42 ), ExtResource( 26 ), ExtResource( 43 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "hurt",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 109.77
+height = 208.018
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 141.078
+height = 0.0
+
+[node name="main" type="Node2D"]
+script = ExtResource( 71 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 420, 300 )
+current = true
+script = ExtResource( 74 )
+
+[node name="Timer" type="Timer" parent="Camera2D"]
+wait_time = 70.0
+one_shot = true
+autostart = true
+
+[node name="time_label" type="Label" parent="Camera2D"]
+light_mask = -2147483648
+margin_left = 30.0
+margin_top = 80.0
+margin_right = 75.0
+margin_bottom = 111.0
+rect_scale = Vector2( 1.5, 1.5 )
+rect_pivot_offset = Vector2( 34.125, 7.125 )
+custom_colors/font_color = Color( 0.0784314, 0.976471, 0.180392, 1 )
+text = "
+"
+clip_text = true
+script = ExtResource( 73 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Counter" parent="Camera2D" instance=ExtResource( 64 )]
+margin_left = 13.02
+margin_top = 40.0
+margin_right = 336.02
+margin_bottom = 110.0
+rect_scale = Vector2( 0.4, 0.4 )
+
+[node name="PotionLabel2" parent="Camera2D/Counter" instance=ExtResource( 72 )]
+
+[node name="player" type="KinematicBody2D" parent="." groups=[
+"Player",
+]]
+position = Vector2( 93.789, 462.806 )
+scale = Vector2( 0.14, 0.14 )
+script = ExtResource( 51 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="player"]
+light_mask = -2147483647
+position = Vector2( 457.964, 262.656 )
+frames = SubResource( 1 )
+animation = "idle"
+frame = 7
+speed_scale = 2.0
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2( 461.125, 301.546 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+offset = Vector2( 520, -160 )
+limit_smoothed = true
+smoothing_enabled = true
+offset_h = -1.0
+editor_draw_limits = true
+editor_draw_drag_margin = true
+
+[node name="AttackArea" type="Area2D" parent="player" groups=[
+"Spell",
+]]
+space_override = 1
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player/AttackArea"]
+position = Vector2( 1032.14, 243.594 )
+shape = SubResource( 3 )
+disabled = true
+
+[node name="potion" parent="." instance=ExtResource( 65 )]
+script = ExtResource( 69 )
+
+[node name="potion2" parent="." instance=ExtResource( 65 )]
+position = Vector2( 550, 136 )
+script = ExtResource( 69 )
+
+[node name="potion3" parent="." instance=ExtResource( 65 )]
+position = Vector2( 1489, 55 )
+script = ExtResource( 69 )
+
+[node name="potion4" parent="." instance=ExtResource( 65 )]
+position = Vector2( 2634, -30 )
+script = ExtResource( 69 )
+
+[node name="potion5" parent="." instance=ExtResource( 65 )]
+position = Vector2( 3066.22, -86.3399 )
+script = ExtResource( 69 )
+
+[node name="potion6" parent="." instance=ExtResource( 65 )]
+position = Vector2( 3923.09, 164.247 )
+script = ExtResource( 69 )
+
+[node name="potion7" parent="." instance=ExtResource( 65 )]
+position = Vector2( 5293.75, 130.611 )
+script = ExtResource( 69 )
+
+[node name="Background" parent="." instance=ExtResource( 62 )]
+position = Vector2( 15.8486, -7.95395 )
+
+[node name="angelenemy" parent="." instance=ExtResource( 66 )]
+show_behind_parent = true
+position = Vector2( 2126.76, 305.613 )
+
+[node name="angelenemy2" parent="." instance=ExtResource( 66 )]
+show_behind_parent = true
+position = Vector2( 4362.62, 310.952 )
+
+[node name="angel2enemy" parent="." instance=ExtResource( 75 )]
+position = Vector2( 6909.35, 295.75 )
+[connection signal="timeout" from="Camera2D/Timer" to="." method="_on_Timer_timeout"]
+[connection signal="area_entered" from="player/AttackArea" to="angelenemy" method="_on_AttackArea_area_entered"]
+[connection signal="potion_collected" from="potion" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion2" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion3" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion4" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion5" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion6" to="." method="_on_potion_potion_collected"]
+[connection signal="potion_collected" from="potion7" to="." method="_on_potion_potion_collected"]
+[connection signal="area_entered" from="angelenemy" to="player" method="_on_angelenemy_area_entered"]
+[connection signal="area_entered" from="angelenemy2" to="player" method="_on_angelenemy_area_entered"]
